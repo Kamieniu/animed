@@ -20,7 +20,9 @@
     "jsx": "preserve",
     "paths": {
       "@shared/*": ["shared/*"],
-      "@config/*": ["config/*"]
+      "@config/*": ["config/*"],
+      "@models/*": ["core/models/*"],
+      "@repository/*": ["repository/*"]
     }
   },
   "include": [

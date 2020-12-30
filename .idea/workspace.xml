@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="18fd56f0-42f4-4948-b443-6a76285be20e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/Home/components/NewsFeed/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/Home/components/NewsFeed/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/Home/components/OurTeam/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/Home/components/OurTeam/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +50,11 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (animed)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/karma.conf.js" />
@@ -84,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609350759202</updated>
       <workItem from="1609350760734" duration="4081000" />
-      <workItem from="1609355831960" duration="9240000" />
+      <workItem from="1609355831960" duration="11410000" />
     </task>
     <servers />
   </component>
