@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="18fd56f0-42f4-4948-b443-6a76285be20e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/routing.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models/NewsFeed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/models/NewsFeed.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/models/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/Home/components/NewsFeed/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/Home/components/NewsFeed/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/Home/components/OurServices/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/Home/components/OurServices/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/Home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/NewsFeed.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/repository/NewsFeed.repository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/Footers/MainFooter/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Footers/MainFooter/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/Headers/MainHeader/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Headers/MainHeader/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/Navigation/MainNavigation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Navigation/MainNavigation/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/NewsFeed/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/NewsFeed/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609350759202</updated>
       <workItem from="1609350760734" duration="4081000" />
-      <workItem from="1609355831960" duration="19201000" />
+      <workItem from="1609355831960" duration="19652000" />
     </task>
     <servers />
   </component>

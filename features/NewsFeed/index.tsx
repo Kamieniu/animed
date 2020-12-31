@@ -31,15 +31,15 @@ export default function NewsFeed() {
           <ul className="flex flex-col">
             {!loading &&
               data.newsFeeds.map((news, index) => (
-                <li className="grid grid-cols-2 gap-6 border-b border-gray-100 py-4 px-3">
+                <li className="grid grid-cols-1 lg:grid-cols-2 gap-6 border-b border-gray-100 py-4 px-3">
                   <article className="flex flex-col">
                     <h2 className="text-lg text-blue-400 mb-3">{news.title}</h2>
                     <Markdown>{news.context.markdown}</Markdown>
                   </article>
 
-                  <figure className="h-32 w-52 overflow-hidden bg-blue-100 ml-auto">
+                  <figure className="h-40 lg:h-32 w-full lg:w-52 overflow-hidden bg-blue-100 lg:ml-auto">
                     <img
-                      className="w-full object-cover"
+                      className="w-full lg:object-cover"
                       src={news.image.url}
                       alt=""
                     />
