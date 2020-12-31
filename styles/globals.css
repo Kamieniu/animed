@@ -5,7 +5,7 @@
 
 @layer utilities {
   .content {
-    @apply max-w-content mx-auto w-full px-5 md:px-0;
+    @apply max-w-content mx-auto w-full px-5;
   }
 }
 

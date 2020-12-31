@@ -1,10 +1,5 @@
 import Link from 'next/link';
-import { ROUTING } from '@config/routing';
-
-type Navigation = {
-  label: string;
-  href: string;
-};
+import { Navigation, ROUTING } from '@config/routing';
 
 export default function MainNavigation() {
   return (

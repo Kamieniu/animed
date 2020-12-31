@@ -9,22 +9,22 @@ export type Navigation = {
 export const ROUTING: Array<Navigation> = [
   {
     label: 'Strona Główna',
-    href: '',
+    href: '/',
     icon: Home,
   },
   {
     label: 'Usługi',
-    href: '',
+    href: '/uslugi',
     icon: Activity,
   },
   {
     label: 'O Nas',
-    href: '',
+    href: '/o_nas',
     icon: Users,
   },
   {
     label: 'Aktualności',
-    href: '',
+    href: '/aktualnosci',
     icon: Rss,
   },
 ];

@@ -6,9 +6,9 @@ type GetRecentNewsResponse = {
 };
 
 export function getRecentNews() {
-  const ALL_PLAYERS_QUERY = gql`
+  const query = gql`
     query newsFeeds {
-      newsFeeds {
+      newsFeeds(last: 4) {
         id
         image {
           url
@@ -21,5 +21,29 @@ export function getRecentNews() {
     }
   `;
 
-  return useQuery<GetRecentNewsResponse>(ALL_PLAYERS_QUERY);
+  return useQuery<GetRecentNewsResponse>(query);
+}
+
+type GetAllNewsResponse = {
+  newsFeeds: Array<NewsFeed>;
+};
+
+export function getAllNews() {
+  const query = gql`
+    query newsFeeds {
+      newsFeeds {
+        id
+        image {
+          url
+        }
+        title
+        context {
+          text
+          markdown
+        }
+      }
+    }
+  `;
+
+  return useQuery<GetAllNewsResponse>(query);
 }

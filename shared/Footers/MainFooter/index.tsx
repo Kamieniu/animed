@@ -15,7 +15,7 @@ export default function MainFooter() {
 
         <div className="hidden md:flex flex-col">
           {ROUTING.map((route, index) => (
-            <Link href={route.href}>
+            <Link href={route.href} key={index}>
               <a>{route.label}</a>
             </Link>
           ))}

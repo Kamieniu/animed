@@ -9,7 +9,6 @@ type News = {
 export default function NewsFeed() {
   const { loading, data, error } = getRecentNews();
 
-  console.log(data);
   return (
     <section className="flex flex-col py-40">
       <h2 className="text-2xl mb-10">Aktualności</h2>

@@ -5,6 +5,7 @@ export interface NewsFeed {
   title: string;
   context: {
     text: string;
+    markdown: string;
   };
   image: Image;
 }
