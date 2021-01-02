@@ -11,14 +11,14 @@ export default function NewsFeed() {
 
   return (
     <section className="flex flex-col py-40">
-      <h2 className="text-2xl mb-10">Aktualności</h2>
+      <h2 className="text-2xl mb-10 font-bold">Aktualności</h2>
 
       <ul className="flex flex-col">
         {!loading &&
           data.newsFeeds.map((news, index) => (
             <Link href="" key={index}>
               <li className="flex justify-between border-b border-gray-100 py-4 px-3">
-                <span>{news.title}</span>
+                <span className="font-medium">{news.title}</span>
                 <ChevronRight />
               </li>
             </Link>

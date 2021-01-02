@@ -6,7 +6,7 @@ export default function OurServices() {
 
   return (
     <section className="flex flex-col py-40">
-      <h2 className="text-2xl mb-10">Usługi</h2>
+      <h2 className="text-2xl mb-10 font-bold">Usługi</h2>
 
       {!loading && <ServicesGrid services={data.services} />}
     </section>

@@ -17,12 +17,18 @@ export default function OurTeam() {
                   <img className="object-cover" src={person.image.url} alt="" />
                 </figure>
 
-                <h6 className="mt-4 text-base">
-                  {person.title} {person.fullName}
+                <h6 className="mt-4 ">
+                  <span className="font-light mr-1 text-sm">
+                    {person.title}
+                  </span>
+                  <span className="font-bold">{person.fullName}</span>
                 </h6>
-                <span className="text-sm">
-                  Specjalizacja: {person.specialization}
-                </span>
+                <article className="">
+                  <span className="font-light mr-1 text-sm">
+                    Specjalizacja:
+                  </span>
+                  <span className="font-bold">{person.specialization}</span>
+                </article>
               </div>
             </div>
           ))}

@@ -9,8 +9,8 @@ export default function ServicesGrid({ services }: Props) {
     <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5 pt-20 pb-10">
       {services.map((service, index) => (
         <div className="flex flex-col" key={index}>
-          <h4 className="mb-2 text-lg">{service.title}</h4>
-          <p className="text-sm">{service.context.text}</p>
+          <h4 className="mb-2 text-lg font-normal">{service.title}</h4>
+          <p className="text-sm font-light">{service.context.text}</p>
         </div>
       ))}
     </div>
