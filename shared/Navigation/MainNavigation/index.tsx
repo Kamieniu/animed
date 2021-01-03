@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { Navigation, ROUTING } from '@config/routing';
 import ActiveLink from '../../../utils/ActiveLink';
 
@@ -8,8 +7,8 @@ export default function MainNavigation() {
       {ROUTING.map(
         ({ isMobile, href, label }: Navigation, index: number) =>
           !isMobile && (
-            <ActiveLink key={index} href={href} activeClassName="text-blue-400">
-              <a className="ml-4 hover:text-blue-400 duration-300 text-blue-200">
+            <ActiveLink key={index} href={href} activeClassName="font-bold">
+              <a className="ml-4 font-light hover:font-bold duration-300 text-white">
                 {label}
               </a>
             </ActiveLink>

@@ -15,9 +15,12 @@ const Markdown = styled(ReactMarkdown)`
 export default function NewsFeed() {
   const { loading, data, error } = getAllNews();
 
+  const imageUrl =
+    'https://images.unsplash.com/photo-1557437220-35046cd1913b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2815&q=80';
+
   return (
     <>
-      <MainHeader>
+      <MainHeader fullScreen={false} imageUrl={imageUrl}>
         <article className="absolute content h-full z-30 top-0 left-0 right-0 flex justify-start items-end">
           <div className="flex flex-col items-center pb-10">
             <h1 className="text-5xl max-w-lg text-white text-center">
@@ -27,7 +30,7 @@ export default function NewsFeed() {
         </article>
       </MainHeader>
       <main className="content">
-        <section className="flex flex-col py-40">
+        <section className="flex flex-col py-20 lg:py-40">
           <ul className="flex flex-col">
             {!loading &&
               data.newsFeeds.map((news, index) => (

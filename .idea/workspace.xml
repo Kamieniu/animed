@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18fd56f0-42f4-4948-b443-6a76285be20e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/logo_white.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/routing.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/AboutUs/components/AboutUsContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/AboutUs/components/AboutUsContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/AboutUs/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/AboutUs/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/Home/components/NewsFeed/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/Home/components/NewsFeed/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/Home/components/OurServices/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/Home/components/OurServices/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/Home/components/OurTeam/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/Home/components/OurTeam/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/NewsFeed/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/NewsFeed/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/OurServices/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/OurServices/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/Footers/CopyrightFooter/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Footers/CopyrightFooter/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/Footers/MainFooter/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Footers/MainFooter/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/Headers/MainHeader/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Headers/MainHeader/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/Navigation/MainNavigation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Navigation/MainNavigation/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/Navigation/MobileNavigation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Navigation/MobileNavigation/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/ServicesGrid/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shared/ServicesGrid/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609350759202</updated>
       <workItem from="1609350760734" duration="4081000" />
-      <workItem from="1609355831960" duration="22638000" />
+      <workItem from="1609355831960" duration="30205000" />
     </task>
     <servers />
   </component>
